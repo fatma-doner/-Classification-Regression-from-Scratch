@@ -1,49 +1,61 @@
-# -Classification-and-Regression-from-Scratch
-This repository contains my solution to a machine learning assignment for the MTH221 course at METU.  
-It includes two main projects:
+# Applied Machine Learning Projects — METU MTH221
 
-1. **Classification Problem** using a real-world weather dataset
-2. **Gradient Descent Implementation** for regression, written entirely from scratch using only NumPy and Pandas
+Welcome! 👋  
+This repository contains my solutions to two machine learning assignments completed for the MTH221 course at METU. These assignments explore both fundamental and advanced ML concepts, including model building, evaluation, and deep learning techniques.
 
 ---
 
-## 📂 Contents
+## 📁 Contents
 
-- `METU_Assignment_1.ipynb`: Jupyter Notebook with all implementations and explanations
+### 📓 Assignment 1: Classic ML & Gradient Descent
+
+Notebook: `METU_Assignment_1.ipynb`
+
+- **Classification Section**
+  - Exploratory Data Analysis (EDA)
+  - Data preprocessing (missing values, encoding, scaling)
+  - K-Fold Cross Validation
+  - Algorithms:
+    - K-Nearest Neighbors (KNN)
+    - Perceptron
+    - Logistic Regression
+  - Evaluation metrics: Accuracy, Precision, Recall, F1 Score, ROC-AUC
+
+- **Regression Section**
+  - Gradient Descent from scratch (NumPy & Pandas only)
+  - Comparison of learning rates: 0.01, 0.1, 1
+  - Cost function visualization
+  - Convergence analysis
 
 ---
 
-## 🧠 Topics Covered
+### 📓 Assignment 2: Ensemble Models & Neural Networks
 
-### 🔹 Part 1: Classification
+Notebook: `METU_Assignment_2.ipynb` *(to be added)*
 
-- Exploratory Data Analysis (EDA)
-- Data preprocessing (handling missing values, encoding, scaling)
-- K-Fold Cross Validation
-- Algorithms implemented:
-  - K-Nearest Neighbors (KNN)
-  - Perceptron
-  - Logistic Regression
-- Model evaluation using:
-  - Accuracy
-  - Precision, Recall, F1-Score
-  - ROC-AUC
+- **Ensemble Learning**
+  - XGBoost with cross-validation
+  - Feature importance analysis
+  - Stacking with multiple base learners
+  - Performance comparison of models
 
-### 🔹 Part 2: Regression with Gradient Descent
-
-- Manual implementation of Gradient Descent
-- Cost function optimization with different learning rates
-- Convergence visualization
-- Performance analysis for multiple α (0.01, 0.1, 1)
+- **Neural Networks with Keras**
+  - Different weight initialization methods (Uniform, Xavier, Zero)
+  - Hidden layer experiments (1, 3, 5 layers)
+  - Activation functions: ReLU, Leaky ReLU, Sigmoid
+  - Learning rate impact (0.01, 0.1, 0.5)
+  - Optimizers: SGD, Adam, RMSprop
+  - Evaluation metrics: F1 Score, Recall, Accuracy
 
 ---
 
 ## 🛠️ Tools & Libraries
 
 - Python 3
-- NumPy
-- Pandas
-- Matplotlib / Seaborn (for EDA & plots)
-- scikit-learn (only in Part 1)
+- NumPy, Pandas
+- Matplotlib, Seaborn
+- scikit-learn
+- XGBoost
+- TensorFlow / Keras
 
-> **Note:** Gradient Descent in Part 2 is implemented entirely without any ML libraries.
+---
