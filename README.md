@@ -1,4 +1,4 @@
-# -Classification-Regression-from-Scratch
+# -Classification-and-Regression-from-Scratch
 This repository contains my solution to a machine learning assignment for the MTH221 course at METU.  
 It includes two main projects:
 
